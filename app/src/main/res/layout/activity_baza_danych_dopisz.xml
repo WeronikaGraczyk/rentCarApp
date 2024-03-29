@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BazaDanychDopisz">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nazwa auta:" />
+
+    <EditText
+        android:id="@+id/EditTextName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kolor: " />
+
+    <EditText
+        android:id="@+id/EditTextColor2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silnik:" />
+
+    <EditText
+        android:id="@+id/EditTextEngine2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rok produkcji:" />
+
+    <EditText
+        android:id="@+id/EditTextYear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cena za dzień:" />
+
+    <EditText
+        android:id="@+id/EditTextCostForDay2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/zapiszPozycje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zapisz nowe auto"
+        android:onClick="zapiszNoweAuto"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
